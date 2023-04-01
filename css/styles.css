@@ -55,6 +55,9 @@ body {
 .nav-sec_color {
   color: var(--font-weight-medium);
 }
+.main-section {
+  background: var(--bg-color-dark);
+}
 .main-primary {
   font-weight: 900;
   font-size: 44px;
@@ -63,9 +66,8 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--text-color-light-primary);
-  background: var(--bg-color-dark);
 }
-.pointer {
+.button-primary {
   font-weight: var(--font-weight-bold);
   line-height: 1.87;
   letter-spacing: 0.06em;
@@ -132,18 +134,20 @@ body {
   line-height: 1.88;
   color: var(--text-color-dark-primary);
 }
-.all-button {
+.button-secondary {
   font-weight: var(--font-weight-medium);
   line-height: 1.62;
   text-align: center;
   background: #f5f4fa;
   color: var(--text-color-dark-secondary);
 }
-.all-button:focus {
+.button-primary:focus,
+.button-secondary:focus {
   color: var(--text-color-light-primary);
   background: var(--bg-color-light);
 }
-.all-button:hover {
+.button-primary:hover,
+.button-secondary:hover {
   color: var(--text-color-light-primary);
   background: var(--bg-color-light);
 }
