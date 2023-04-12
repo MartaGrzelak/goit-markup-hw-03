@@ -12,6 +12,7 @@
 }
 * {
   margin: 0;
+  box-sizing: border-box;
 }
 ul {
   list-style: none;
@@ -22,10 +23,32 @@ a {
 button {
   cursor: pointer;
 }
+.border {
+  border: 1px solid #ececec;
+}
+.section {
+  padding: 94px 0;
+}
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
 body {
   font-family: var(--font-primary);
   color: var(--text-color-dark-secondary);
   letter-spacing: 0.03em;
+}
+.horizontally {
+  display: flex;
+  justify-content: space-between;
+}
+.horizontally-secondary {
+  display: flex;
+  justify-content: center;
+  margin-left: 4px;
+  margin-right: 4px;
+  margin-bottom: 50px;
 }
 .logo {
   font-family: "Raleway";
@@ -43,6 +66,8 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--text-color-dark-secondary);
+  margin-left: 23px;
+  margin-right: 23px;
 }
 .navigation-secondary:hover,
 .address:hover {
@@ -58,6 +83,10 @@ body {
 .main-section {
   background: var(--bg-color-dark);
 }
+.button-h1 {
+  display: flex;
+  flex-direction: column;
+}
 .main-primary {
   font-weight: 900;
   font-size: 44px;
@@ -71,8 +100,11 @@ body {
   font-weight: var(--font-weight-bold);
   line-height: 1.87;
   letter-spacing: 0.06em;
+  text-align: center;
   color: var(--text-color-light-primary);
   background: var(--bg-color-light);
+  margin: 0 auto;
+  border-radius: 4px;
 }
 .section_lorem {
   font-weight: var(--font-weight-bold);
@@ -91,6 +123,13 @@ body {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
+  box-sizing: border-box;
+  margin-bottom: 50px;
+}
+.image {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
 }
 .our_team {
   background: #f5f4fa;
@@ -114,6 +153,10 @@ body {
 }
 .foot_logo {
   color: var(--text-color-light-primary);
+}
+.column {
+  display: flex;
+  flex-direction: column;
 }
 .address {
   font-size: 14px;
@@ -140,6 +183,7 @@ body {
   text-align: center;
   background: #f5f4fa;
   color: var(--text-color-dark-secondary);
+  border-radius: 4px;
 }
 .button-primary:focus,
 .button-secondary:focus {
@@ -150,4 +194,15 @@ body {
 .button-secondary:hover {
   color: var(--text-color-light-primary);
   background: var(--bg-color-light);
+}
+.image-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.image-figure {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #eeeeee;
 }
