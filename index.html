@@ -21,11 +21,11 @@
     <title>WebStudio</title>
   </head>
   <body>
-    <header>
-      <section class="section">
+    <header class="head">
+      <section class="horizontally">
         <div class="container horizontally">
           <nav class="horizontally">
-            <a class="logo" href="./index.html">
+            <a class="logo logo_head" href="./index.html">
               Web<span class="navigation_logo">Studio</span></a
             >
             <ul class="horizontally">
@@ -45,14 +45,14 @@
           <ul class="horizontally">
             <li>
               <a
-                class="navigation-secondary nav-sec_color"
+                class="navigation-secondary nav-sec_color marg-primary"
                 href="mailto:info@devstudio.com"
                 >info@devstudio.com
               </a>
             </li>
             <li>
               <a
-                class="navigation-secondary nav-sec_color"
+                class="navigation-secondary nav-sec_color marg-secondary"
                 href="tel:+48111111111"
                 >+48 111 111 111</a
               >
@@ -62,40 +62,40 @@
       </section>
     </header>
     <main>
-      <section class="main-section section">
-        <div class="container button-h1">
+      <section class="main-section">
+        <div class="button-h1 container">
           <h1 class="main-primary">
             EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU
           </h1>
           <button class="button-primary" type="button">Zamów usługe</button>
         </div>
       </section>
-      <!--lorem-->
+      <!--lorem i zajęcia-->
       <section class="section">
-        <div class="container">
-          <ul class="horizontally">
-            <li>
+        <div>
+          <ul class="horizontally-primary">
+            <li class="marg-lorem-primary">
               <h3 class="section_lorem">LOREM IPSUM</h3>
               <p class="sectiom_lorem_p">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
-            <li>
+            <li class="marg-lorem">
               <h3 class="section_lorem">LOREM IPSUM</h3>
               <p class="sectiom_lorem_p">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
-            <li>
+            <li class="marg-lorem">
               <h3 class="section_lorem">LOREM IPSUM</h3>
               <p class="sectiom_lorem_p">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
-            <li>
+            <li class="marg-lorem-secondary">
               <h3 class="section_lorem">LOREM IPSUM</h3>
               <p class="sectiom_lorem_p">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
@@ -103,13 +103,8 @@
               </p>
             </li>
           </ul>
-        </div>
-      </section>
-      <!--zajęcia-->
-      <section class="section">
-        <div class="container">
           <h2 class="section_work">Czym się zajmujemy</h2>
-          <ul class="image">
+          <ul class="image im-marg">
             <li>
               <img
                 src="images/img1.jpg"
@@ -120,6 +115,7 @@
             </li>
             <li>
               <img
+                class="image-marg"
                 src="images/img2.jpg"
                 alt="praca na telefonie"
                 width="370"
@@ -138,14 +134,13 @@
         </div>
       </section>
       <!--zespół-->
-      <section class="our_team section">
+      <section class="our_team section section">
         <div class="container">
           <h2 class="team">Nasz zespół</h2>
           <ul class="image">
             <li>
-              <figure>
+              <figure class="team-image">
                 <img
-                  class="bg_img"
                   src="images/img4.jpg"
                   alt="Mężczyzna w okularach i ciemnej koszuli"
                   width="270"
@@ -158,9 +153,8 @@
               </figure>
             </li>
             <li>
-              <figure>
+              <figure class="team-image">
                 <img
-                  class="bg_img"
                   src="images/img5.jpg"
                   alt="Kobieta w okularach w czarnej garsonce"
                   width="270"
@@ -173,9 +167,8 @@
               </figure>
             </li>
             <li>
-              <figure>
+              <figure class="team-image">
                 <img
-                  class="bg_img"
                   src="images/img6.jpg"
                   alt="Mężczyzna w jasnej koszuli"
                   width="270"
@@ -188,9 +181,8 @@
               </figure>
             </li>
             <li>
-              <figure>
+              <figure class="team-image">
                 <img
-                  class="bg_img"
                   src="images/img7.jpg"
                   alt="Mężczyzna w okularach i ciemnej koszulce"
                   width="270"
@@ -211,7 +203,7 @@
         <a class="logo" href="./index.htm">
           Web<span class="foot_logo">Studio</span></a
         >
-        <address class="container">
+        <address>
           <ul class="column">
             <li class="address">m. Warszawa, Aleje Jerozolimskie 21</li>
             <li>
